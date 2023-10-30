@@ -26,7 +26,7 @@
 
 ## Ответ:
 
-[!Скриншот 1](https://github.com/Wanderwille/scrinshot/blob/main/git%20status.png)
+![Скриншот 1](https://github.com/Wanderwille/scrinshot/blob/main/git%20status.png)
 
 ## Задание 2 
 
@@ -40,7 +40,7 @@
 
 ## Ответ:
 
-[!Скриншот 3](https://github.com/Wanderwille/scrinshot/blob/main/git%20ignore.png)
+![Скриншот 3](https://github.com/Wanderwille/scrinshot/blob/main/git%20ignore.png)
 
 ### - Игнорирование локльной директории terraform
 **/.terraform/* - Игнорирование локльной директории terraform
@@ -87,6 +87,6 @@ terraform.rc
 
 ## Ответ:
 
-[!Скриншот 3](https://github.com/Wanderwille/scrinshot/blob/main/git%20rm.png)
-[!Скриншот 4](https://github.com/Wanderwille/scrinshot/blob/main/git%20mv.png)
-[!Скриншот 5](https://github.com/Wanderwille/scrinshot/blob/main/git%20log.png)
+![Скриншот 3](https://github.com/Wanderwille/scrinshot/blob/main/git%20rm.png)
+![Скриншот 4](https://github.com/Wanderwille/scrinshot/blob/main/git%20mv.png)
+![Скриншот 5](https://github.com/Wanderwille/scrinshot/blob/main/git%20log.png)
