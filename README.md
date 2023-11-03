@@ -1,36 +1,17 @@
-# First_commit
+Давайте посмотрим, как будет выглядеть история коммитов при создании веток.
 
-# Local .terraform directories
-**/.terraform/* - Игнорирование локльной директории terraform
+Переключитесь обратно на ветку main, которая должна быть связана с веткой main репозитория на github.
 
-# .tfstate files 
-*.tfstate
-*.tfstate.*  - Файлы состояния инфраструктуры 
+Посмотрите лог коммитов и найдите хеш коммита с названием Prepare to delete and move, который был создан в пределах предыдущего домашнего задания.
 
-# Crash log files
-crash.log  - Файлы логов ошибок (краш)
-crash.*.log
+Выполните git checkout по хешу найденного коммита.
 
-# Exclude all .tfvars files, which are likely to contain sensitive data, such as
-# password, private keys, and other secrets. These should not be part of version 
-# control as they are data points which are potentially sensitive and subject 
-# to change depending on the environment.
-*.tfvars  - конфиг, со значением переменных 
-*.tfvars.json    
+Создайте новую ветку fix, базируясь на этом коммите git switch -c fix.
 
-# Ignore override files as they are usually used to override resources locally and so
-# are not checked in
-override.tf
-override.tf.json - файлы предопределения 
-*_override.tf
-*_override.tf.json
+Отправьте новую ветку в репозиторий на GitHub git push -u origin fix.
 
-# Include override files you do wish to add to version control using negated pattern
-# !example_override.tf
+Посмотрите, как визуально выглядит ваша схема коммитов: https://github.com/YOUR_ACCOUNT/devops-netology/network.
 
-# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
-# example: *tfplan*
+Теперь измените содержание файла README.md, добавив новую строчку.
 
-# Ignore CLI configuration files
-.terraformrc - файл, содержащий адрес зеркал 
-terraform.rc
+Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network и как изменится вывод команды git log.
